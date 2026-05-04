@@ -46,10 +46,10 @@ const styles = {
 
 export default function Home() {
   const amigos = [
-    { id: "SadalsudD#BAQ" }, { id: "Kindred Lamar#Zzzzz" }, { id: "YamteKudasai#LAN" },
-    { id: "Orianna Grande#Zzzzz" }, { id: "MIa Kalista#Zzzzz" }, { id: "Vitafer#MED" },
-    { id: "tumbalacasanami#FARC" }, { id: "yo y 4 webones#LAN" },
-    { id: "pacu liarte#LAN" }, { id: "GalioleoGalilei#Zzzzz" },
+    { id: "SadalsudD#BAQ" }, { id: "Kindred Lamar#Zzzzz" },
+    { id: "Orianna Grande#Zzzzz" },
+    { id: "tumbalacasanami#FARC" },
+    { id: "GalioleoGalilei#Zzzzz" },
   ];
 
   const [datosReales, setDatosReales] = useState<Record<string, any>>({});
